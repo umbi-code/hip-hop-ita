@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <title>Rate Albums 2022 (Hip-Hop edition)</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+    </div>   
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="rating.html">Vota l'album del 2022</a>               
+    </nav>
+    <header>
+        <h1>Valuta gli album usciti nel 2022 <sub>Hip-Hop italia edition</sub></h1>    
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <div class="buttons">
+                <button class="previous-btn"><img width="20" height="20" src="https://img.icons8.com/ios/20/000000/forward--v1.png" alt="forward--v1"/></button>
+                <button class="random-btn"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/dice.png" alt="dice"/></button>
+                <button class="next-btn"><img width="20" height="20" src="https://img.icons8.com/ios/20/000000/forward--v1.png" alt="forward--v1"/></button>
+            </div>
+            <div class="info">
+                <img id="profile-image" src="" alt="Profile Image">
+                <h2 id="album-title">Titolo dell'album</h2>
+                <p id="artist-name">Artista</p>
+            </div>
+            <div class="tracks">
+                <h3>Tracce:</h3>
+                <table id="track-list">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Titolo</th>
+                            <th>Feat.</th>
+                            <th>Voto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Qui vengono generati dinamicamente gli elementi delle tracce -->
+                    </tbody>
+                </table>
+                <p id="overall-rating">OVERALL: </p>
+                <h4>@barred'oro</h4>
+            </div>
+        </div>
+    </div>
+    <div class="share">
+    <button id="share-btn"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/000000/share-rounded.png" alt="share-rounded"/></button>
+    </div>
+    <footer>
+        <p>©2023 Sito realizzato da: Umberto Gottardi</p>
+        <a href="documentazione.html">DOCUMENTAZIONE</a>
+      </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>

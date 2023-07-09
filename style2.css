@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black; /*colore di background di spotify*/
+    margin: 0; /*il font è quello di spotify*/
+    padding: 0;
+  }
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo img{
+  width: 300px;
+  animation: rotation 7s infinite linear;
+  margin-bottom: 39px;
+  margin-top: 44px;
+}
+
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(18,18,18);
+    border-radius: 10px;
+    font-style: bold;
+  }
+
+  nav a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+  }
+  nav a::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+
+  nav a:hover::before{
+    transform: scale3d(1,1,1);
+  }
+
+  nav a::before{
+    background: rgb(223, 204, 137);
+    transform-origin: 100% 50%;
+  }
+
+  nav a:hover::before{
+    transform-origin: 0 50%;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:35px;
+  }
+  
+  .card {
+    background-color: rgb(18,18,18);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  .card img {
+    border-radius: 5%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .card h2 {
+    margin-top: 10px;
+    color:#fff;
+  }
+  
+  .card p {
+    color: rgb(120,120,120);
+    margin-top: 5px;
+  }
+  
+/* Stile per i bottoni */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aggiunto per allineare verticalmente le icone */
+  margin: 10px;
+}
+
+.container button {
+  display: inline-block;
+  padding: 8px;
+  background-color: rgb(148, 148, 148);
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(223, 204, 137);
+  transition: background-color 0.6s ease;
+}
+
+button img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.previous-btn img {
+  vertical-align: middle;
+  width: 25px; 
+  height: 25px; 
+  transform: scaleX(-1); /* Specchia l'immagine orizzontalmente */
+}
+
+.random-btn img {
+  vertical-align: middle;
+  width: 25px; 
+  height: 25px; 
+}
+
+.next-btn img {
+  width: 25px; 
+  height: 25px; 
+}
+
+.screen-btn {
+  width: 60px; 
+  height: 50px; 
+}
+
+h3 {
+  color: white;
+}
+/*personalizzazione tabella*/
+thead tr th {
+    color: white;
+    padding: 10px;
+}
+
+tbody tr td {
+    color: rgb(148, 148, 148);
+    padding: 5px;
+}
+table {
+    padding: 10px;
+}
+
+footer {
+  background-color: rgb(24, 24, 24);
+  margin: 40px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(148, 148, 148);
+}
+
+footer a{
+  color: rgb(223, 204, 137);
+  text-decoration: none;
+}
+
+h4{
+  color:rgb(223, 204, 137);
+}
+
+.share button {
+  background-color: rgb(148, 148, 148);
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+.share button:hover {
+  background-color: rgb(223, 204, 137);
+  transition: background-color 0.6s ease;
+}
+
+.share{
+  text-align: center;
+}
+
+#overall-rating {
+  text-align: center;
+}
