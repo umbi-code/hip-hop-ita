@@ -1,6 +1,6 @@
 //popolo il dataset con tutti gli album con i relativi dati. Il rating:0 è il valore iniziale del voto.
 var albums = [
-    {
+{
       title: "X2", //uscito il 7/01
       artist: "Sick Luke",
       image: "https://i.scdn.co/image/ab67616d00001e02e45f97fc68a12ca3601b1047",
@@ -24,8 +24,8 @@ var albums = [
         { title: "CAMEL E MALINCONIA", feat: "Duke Montana", rating: 0 },
         { title: "LIBERTÀ", feat: "Madame, Chiello", rating: 0 }
       ]
-    },
-    {
+},
+{
       title: "Virus", //uscito il 14/01
       artist: "Noyz Narcos",
       image: "https://i.scdn.co/image/ab67616d00001e02d37cd62527626c7dc5dcac80",
@@ -49,8 +49,8 @@ var albums = [
           { title: "VICTORY LAP", feat: " ", rating: 0 },
           { title: "RVSSIAN BAG", feat: "Click Head, Gast, Thirstin Howl III", rating: 0 }
       ]
-    },
-    {
+},
+{
       title: "Wave Deluxe", //uscito il 14/01
       artist: "Slings",
       image: "https://i.scdn.co/image/ab67616d00001e02d73e08076e09375a511d8e7e",
@@ -70,8 +70,8 @@ var albums = [
         { title: "Crema", feat: "Ft. Touché", rating: 0 },
         { title: "Esercizi", feat: "", rating: 0 }
     ]
-    },
-    {
+},
+{
       title: "Devastante", //uscito il 21/01
       artist: "Il Pagante",
       image: "https://i.scdn.co/image/ab67616d00001e02ceaeb9d72a6398f943ca9ad8",
@@ -88,8 +88,8 @@ var albums = [
         { title: "San Siro", feat: "Ft. Jake La Furia", rating: 0 },
         { title: "Devastante", feat: "Ft. M¥SS KETA", rating: 0 }
     ]
-    },        
-    {
+},        
+{
       title: "BELLA VITA", //uscito il 21/01
       artist: "Niko Pandetta",
       image: "https://i.scdn.co/image/ab67616d00001e029622f2bf5ef2753f96246ab7",
@@ -109,8 +109,8 @@ var albums = [
         { title: "Lamborghini", feat: "Ft. Side Baby", rating: 0 },
         { title: "Strade Scoperte", feat: "", rating: 0 }
     ]
-    },
-    {
+},
+{
       title: "Succo Di Zenzero Vol.2", //uscito il 21/01
       artist: "Wayne Santana",
       image: "https://i.scdn.co/image/ab67616d00001e02138c90ec97f95163920151a2",
@@ -132,8 +132,8 @@ var albums = [
         { title: "Marmellata", feat: "Ft. RADICAL, Rosa Chemical & Tony Effe", rating: 0 },
         { title: "Santana", feat: "", rating: 0 }
     ]
-    },
-    {
+},
+{
       title: "TAXI DRIVER+ (Deluxe)", //uscito il 27/01
       artist: "Rkomi",
       image: "https://i.scdn.co/image/ab67616d00001e0224b17f5dc773cb177330f349",
@@ -161,8 +161,8 @@ var albums = [
         { title: "CANCELLI DI MEZZANOTTE", feat: "Chiello", rating: 0 },
         { title: "TAXI DRIVER", feat: "", rating: 0 },
     ]
-  },
-  {
+},
+{
     title: "LAURO - Achille Idol Superstar", //uscito il 11/02
     artist: "Achille Lauro",
     image: "https://i.scdn.co/image/ab67616d00001e025aea47a91f2ef4d51639ad9b",
@@ -226,7 +226,7 @@ var albums = [
     { title: "La Presa B e La Presa Male", feat: "Francesca Michielin", rating: 0 }
 ]
 },   
-    {
+{
       title: "Salvatore", //uscito il 11/03
       artist: "Paky",
       image: "https://i.scdn.co/image/ab67616d00001e02079d4ace79994f70725d5759",
@@ -249,8 +249,8 @@ var albums = [
         { title: "Mama I’m a Criminal", feat: "", rating: 0 },
         { title: "Bronx", feat: "", rating: 0 }
     ]
-    },
-    {
+},
+{
       title: "Caos", //uscito il 18/03
       artist: "Fabri Fibra",
       image: "https://i.scdn.co/image/ab67616d00001e02b39f1cccb454cd361da50fdb",
@@ -273,8 +273,8 @@ var albums = [
         { title: "Liberi", feat: "Francesca Michielin", rating: 0 },
         { title: "Outro (Senti)", feat: " ", rating: 0 },
       ]
-  },
-    {
+},
+{
       title: "Dove Volano Le Aquile", //uscito il 1/04
       artist: "Luchè",
       image: "https://i.scdn.co/image/ab67616d00001e025558244723616933a29ebcbd",
@@ -296,8 +296,8 @@ var albums = [
         { title: "Addio", feat: "Guè, Noyz Narcos", rating: 0 },
         { title: "Topless by Luchè, CoCo", feat: " ", rating: 0 },
       ]
-  },
-      {
+},
+{
         title: "SIRIO", //uscito il 8/04
         artist: "Lazza",
         image: "https://i.scdn.co/image/ab67616d00001e02279a772ce72afcc068718423",
@@ -319,8 +319,8 @@ var albums = [
             { title: "NULLA DI", feat: " ", rating: 0 },
             { title: "REPLAY", feat: " ", rating: 0 }
         ]
-      },
-      {
+},
+{
         title: "XENOVERSO", //uscito il 14/04
         artist: "Rancore",
         image: "https://i.scdn.co/image/ab67616d00001e026ce8adc612fa5a802e63b340",
@@ -343,8 +343,8 @@ var albums = [
           { title: "Questa cosa che io ho scritto mi piace", feat: "", rating: 0 },
           { title: "Io non sono io", feat: "", rating: 0 }
       ]
-    },
-      {
+},
+{
           title: "Solito posto, Soliti guai", //uscito il 22/04
           artist: "Tredici Pietro",
           image: "https://i.scdn.co/image/ab67616d00001e02fef92234eafe2c04469678bd",
@@ -360,8 +360,8 @@ var albums = [
             { title: "MARE", feat: "Giaime", rating: 0 },
             { title: "DALL’ALTO", feat: " ", rating: 0 },
           ]
-      },
-      {
+},
+{
         title: "Black Pulcinella", //uscito il 29/04
         artist: "Clementino",
         image: "https://i.scdn.co/image/ab67616d00001e02ca465aa1de2bfa37e0016720",
@@ -382,8 +382,8 @@ var albums = [
           { title: "Non passa mai", feat: "Ensi & LA NIÑA", rating: 0 },
           { title: "Black Pulcinella", feat: "", rating: 0 }
       ]
-    },
-    {
+},
+{
       title: "TRAUMA", //uscito il 29/04
       artist: "PSICOLOGI",
       image: "https://i.scdn.co/image/ab67616d00001e0207cc0817eec051cfed4fc67e",
@@ -400,8 +400,8 @@ var albums = [
         { title: "1312", feat: "", rating: 0 },
         { title: "SUI MURI", feat: "", rating: 0 }
     ]
-  },
-      {
+},
+{
           title: "Italiano", //uscito il 6/05
           artist: "Sfera Ebbasta",
           image: "https://i.scdn.co/image/ab67616d00001e02f5cb50fb281d237ca6b00a3a",
@@ -412,8 +412,8 @@ var albums = [
             { title: "Sola", feat: "Myke Towers", rating: 0 },
             { title: "X6", feat: "BIA", rating: 0 },
           ]
-      },
-      {
+},
+{
         title: "LIBERATO II", //uscito il 9/05
         artist: "LIBERATO",
         image: "https://i.scdn.co/image/ab67616d00001e0256eced9d26508a2ea063f5be",
@@ -426,8 +426,8 @@ var albums = [
           { title: "CICERENELLA", feat: "", rating: 0 },
           { title: "'NA STORIA 'E 'NA SERA", feat: "", rating: 0 }
       ]
-    },
-      {
+},
+{
           title: "Eclissi", //uscito il 13/05
           artist: "Gemitaiz",
           image: "https://i.scdn.co/image/ab67616d00001e029bc0f2396a3033896410b63c",
@@ -446,8 +446,8 @@ var albums = [
             { title: "Ogni Volta", feat: "Venerus", rating: 0 },
             { title: "Qua Con Me", feat: "", rating: 0 },
         ]        
-      },
-      {
+},
+{
         title: "CRIMI", //uscito il 17/05
         artist: "Simba La Rue",
         image: "https://i.scdn.co/image/ab67616d00001e023a3f16ed291393f0674afb32",
@@ -463,8 +463,8 @@ var albums = [
           { title: "TARANTELLE", feat: "", rating: 0 },
           { title: "OPINEL", feat: "", rating: 0 }
       ]
-    },
-      {
+},
+{
           title: "Senzazione Ultra", //uscito il 20/05
           artist: "Ghali",
           image: "https://i.scdn.co/image/ab67616d00001e02f9d7449322fe446c869d6b6b",
@@ -482,8 +482,8 @@ var albums = [
             { title: "DRARI", feat: "Baby Gang", rating: 0 },
             { title: "SENSAZIONE ULTRA", feat: "", rating: 0 },
         ]        
-      },
-      {
+},
+{
         title: "AMBIZIONE (Deluxe)", //uscito il 27/05
         artist: "Lele Blade",
         image: "https://i.scdn.co/image/ab67616d00001e025572aee4f6c9cdff47cabb9c",
@@ -508,8 +508,8 @@ var albums = [
           { title: "Tu Si A Droga Pe Me", feat: "MV Killa", rating: 0 },
           { title: "Resta", feat: "", rating: 0 }
       ]      
-    },
-    {
+},
+{
           title: "Blocco 181", //uscito il 27/05
           artist: "Salmo",
           image: "https://i.scdn.co/image/ab67616d00001e02cc7f03cfe529d32c1c0910f8",
@@ -526,8 +526,8 @@ var albums = [
             { title: "SOTTO VOCE", feat: "Noyz Narcos", rating: 0 },
             { title: "BLOCCO 181 - Title Track", feat: "El Verano, Luciennn", rating: 0 },
         ]        
-      },
-      {
+},
+{
         title: "SEVEN 7oo MIxtape", //uscito il 27/05
         artist: "SEVEN 7oo",
         image: "https://i.scdn.co/image/ab67616d00001e025a5df8c7d8e1aec4da7d364e",
@@ -550,8 +550,8 @@ var albums = [
           { title: "PARANOIA", feat: "Ft. Neima Ezza & Sacky", rating: 0 },
           { title: "LUNEDÌ", feat: "Ft. Kilimoney, Rondodasosa & Vale Pain", rating: 0 }
       ]     
-    },
-      {
+},
+{
           title: "Hustle", //uscito il 03/06
           artist: "Capo Plaza",
           image: "https://i.scdn.co/image/ab67616d00001e02b67137ac4c300ce27f5f817d",
@@ -569,8 +569,8 @@ var albums = [
             { title: "RapStar", feat: "", rating: 0 },
             { title: "Non Bastano Mai", feat: "", rating: 0 },
         ]        
-      },
-      {
+},
+{
         title: "FAIV", //uscito il 03/06
         artist: "Dani Faiv",
         image: "https://i.scdn.co/image/ab67616d00001e02bec12ee6033d217028d77952",
@@ -592,8 +592,8 @@ var albums = [
           { title: "FULL SPEED", feat: "", rating: 0 },
           { title: "ANNO ZERO", feat: "", rating: 0 },
       ]        
-    },
-    {
+},
+{
       title: "Armageddon", //uscito il 03/06
       artist: "Ketama126",
       image: "https://i.scdn.co/image/ab67616d00001e02fdde79c3a3d439fb8112e431",
@@ -616,8 +616,8 @@ var albums = [
         { title: "L'ULTIMO TRENO", feat: "Yung Beef", rating: 0 },
         { title: "SOTTO LA LUNA", feat: "", rating: 0 }
     ]    
-  },
-  {
+},
+{
     title: "PROVINCIALE", //uscito il 10/06
     artist: "Rhove",
     image: "https://i.scdn.co/image/ab67616d00001e0258bc6fd7dab23766d6839567",
@@ -1097,7 +1097,7 @@ tracks: [
   });
 
   function captureScreenshot() {
-    var containerElement = document.querySelector('.container'); // L'elemento che desideri catturare come screenshot
+    var containerElement = document.querySelector('.card'); // L'elemento che desideri catturare come screenshot
   
     // Seleziona gli elementi da nascondere nello screenshot
     var elementsToHide = containerElement.querySelectorAll('.logo, nav, .buttons, #profile-image');

@@ -29,6 +29,9 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
+              <div class="suggerimento" id="suggerimento">
+                <p>Sfiora col mouse il riquadro per leggere il contenuto.</p>
+              </div>
               <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Sugarhill_Gang.jpg/220px-Sugarhill_Gang.jpg" alt=" " style="width:300px;height:300px;">
                 <h1>L'arte del rap</h1>
                 <p>La magia dell'hip-hop attraverso il freestyle e le battaglie, dove le parole prendono vita nell'istante.<br>Cover: The Sugarhill Gang - Sugarhill Gang.</p>
@@ -176,6 +179,28 @@
         <p>©2023 Sito realizzato da: Umberto Gottardi</p>
         <a href="documentazione.html">DOCUMENTAZIONE</a>
       </footer>
-  </body>
+
+      <script>
+function nascondiSuggerimento() {
+  var suggerimento = document.getElementById('suggerimento');
+  suggerimento.style.display = 'none';
+}
+
+window.onload = function() {
+  var suggerimento = document.getElementById('suggerimento');
+  
+  // Controllo se il dispositivo è un dispositivo mobile
+  if (window.innerWidth <= 767) {
+    suggerimento.innerHTML = '<p>Tocca i riquadri per leggere il contenuto!</p>';
+  }
+
+  suggerimento.style.display = 'block';
+
+  setTimeout(nascondiSuggerimento, 30000); //30 secondi
+};
+
+      </script>
+      
+    </body>
 </html>
  

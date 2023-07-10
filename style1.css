@@ -214,3 +214,38 @@ footer a{
     }
 }
 
+.hint{
+  border-radius: 10px;
+  background-color: rgb(223, 204, 137);
+}
+
+#suggerimento {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  animation: fadeIn 1s ease-in-out;
+  z-index: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Stile predefinito per il box suggerimento */
+.suggerimento {
+  display: none;
+}
+
+/* Stile per dispositivi mobili */
+@media screen and (max-width: 767px) {
+  .suggerimento {
+    display: block;
+  }
+}
